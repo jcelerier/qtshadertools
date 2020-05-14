@@ -5,6 +5,7 @@ CONFIG += \
     hide_symbols \
     exceptions_off rtti_off warn_off
 
+DEFINES+=YYDEBUG=0
 load(qt_helper_lib)
 
 include($$PWD/glslang_common.pri)
