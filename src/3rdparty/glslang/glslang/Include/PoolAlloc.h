@@ -241,7 +241,6 @@ protected:
     int numCalls;           // just an interesting statistic
     size_t totalBytes;      // just an interesting statistic
 private:
-    TPoolAllocator& operator=(const TPoolAllocator&);  // don't allow assignment operator
     TPoolAllocator(const TPoolAllocator&);  // don't allow default copy constructor
 };
 
